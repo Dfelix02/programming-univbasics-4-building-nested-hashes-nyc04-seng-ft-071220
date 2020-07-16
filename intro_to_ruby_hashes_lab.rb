@@ -5,7 +5,7 @@ end
 
 def monopoly_with_second_tier
   a_hash = base_hash
-  a_hash[:railroads]=[pieces: 4, :rent_in_dollars => {}, :names => {}]
+  a_hash[:railroads]={pieces: 4, :rent_in_dollars => {}, :names => {}}
   a_hash
 
 end
